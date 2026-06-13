@@ -1,0 +1,67 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Production / Build
+/build
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pip-log.txt
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python Cache & Compiled Files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+__results___files/
+synopsis_report.zip
+
+# Large datasets & CSVs
+kcc_data.csv
+backend/kcc_data.csv
+Gwalior_Mandi_Latest_Arrival_Per_Commodity.csv
+
+# Large AI/ML Models & Weights
+*.h5
+*.tflite
+*.weights.h5
+models/leaf_disease_model.h5
+models/leaf_disease_model.tflite
+models/weights_*.weights.h5
+models/checkpoints/
+backend/chatbot_model.pkl
+backend/chatbot_vectorizer.pkl
+backend/model_cache/
+
+# Llama2 Subproject Large Files
+End-to-end-Agriculture-Chatbot-using-Llama2-main/model/
+End-to-end-Agriculture-Chatbot-using-Llama2-main/chroma_db/
+End-to-end-Agriculture-Chatbot-using-Llama2-main/venv/
+End-to-end-Agriculture-Chatbot-using-Llama2-main/__pycache__/
